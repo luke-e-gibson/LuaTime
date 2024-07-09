@@ -2,19 +2,18 @@
 #include <thread>
 #include <sol/sol.hpp>
 #include <spdlog/spdlog.h>
+#include <vector>
 
 //Do i need this
 #include "assert.h"
 
 namespace Lua 
 {
-	LuaVm::LuaVm(LuaLibs... libs)
+	LuaVm::LuaVm()
 	{
 		spdlog::info("Creating Lua Vm");
-
-
-		lua.open_libraries(sol::lib::base, sol::lib::package);
-
+		
+		lua.open_libraries(sol::lib::base, sol::lib::package, sol::lib::coroutine, sol::lib::string, sol::lib::table, sol::lib::math, sol::lib::debug, sol::lib::os);
 
 		lua.set_exception_handler(&LuaVm::runtime_exception_handler);
 	}

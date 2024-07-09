@@ -17,7 +17,6 @@ namespace Lua
 		Utf8
 	};
 
-
 	class LuaVm
 	{
 	private:
@@ -25,7 +24,7 @@ namespace Lua
 		static int runtime_exception_handler(lua_State* L, sol::optional<const std::exception&> maybe_exception, sol::string_view description);
 
 	public:
-		LuaVm(LuaLibs... libs);
+		LuaVm();
 		~LuaVm();
 
 		void loadFileAndRun(std::string file);
