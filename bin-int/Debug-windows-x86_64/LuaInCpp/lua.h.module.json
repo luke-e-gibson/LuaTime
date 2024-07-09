@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "..\\bin-int\\Debug-windows-x86_64\\LuaInCpp\\Lua.h.obj",
+            "outputs": [
+                "C:\\dev\\LuaInCpp\\bin-int\\Debug-windows-x86_64\\LuaInCpp\\vc143.pdb",
+                "..\\bin-int\\Debug-windows-x86_64\\LuaInCpp\\",
+                "C:\\dev\\LuaInCpp\\bin-int\\Debug-windows-x86_64\\LuaInCpp\\Lua.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "Lua\\Lua.h",
+                    "source-path": "c:\\dev\\luaincpp\\luaincpp\\lua\\lua.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

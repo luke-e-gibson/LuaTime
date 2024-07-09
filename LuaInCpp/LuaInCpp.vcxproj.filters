@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="bench">
+      <UniqueIdentifier>{E5A4250F-51B9-4DC0-1A3B-F11F860E4AF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="example">
+      <UniqueIdentifier>{F1997D81-5D79-FC1C-6691-87F3D2EF627E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\spdlog">
+      <UniqueIdentifier>{A18B8C6B-8D59-8071-76ED-F097625A5CD6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\spdlog\cfg">
+      <UniqueIdentifier>{A0EC5630-8CD0-1786-F530-12D9E1330208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\spdlog\details">
+      <UniqueIdentifier>{168D0371-0287-2CC3-EBF3-C2D3D78C922F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\spdlog\fmt">
+      <UniqueIdentifier>{57FA5630-43DE-1786-AC3E-12D998410208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\spdlog\fmt\bundled">
+      <UniqueIdentifier>{4480C733-3090-7304-9949-D8228578629D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\spdlog\sinks">
+      <UniqueIdentifier>{D8EDE7A2-C47C-716C-6D9B-856759098212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{78756B10-E489-93C1-AD0B-372119DF8FF2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Lua\Lua.h" />
+    <ClCompile Include="Lua\Lua.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="assert.h" />
+  </ItemGroup>
+</Project>
